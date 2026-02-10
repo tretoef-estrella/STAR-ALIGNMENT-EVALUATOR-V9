@@ -11,16 +11,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap');
         body { background-color: #020617; color: #f8fafc; font-family: 'JetBrains Mono', monospace; margin: 0; }
-        .btn-star { transition: all 0.2s; border: 1px solid #334155; }
-        .btn-star:hover { background-color: #1e293b; border-color: #475569; }
+        #root:empty::before {
+            content: "INICIALIZANDO MOTOR V9...";
+            display: flex; height: 100vh; justify-content: center; align-items: center;
+            color: #475569; font-size: 10px; letter-spacing: 4px;
+        }
     </style>
 </head>
 <body>
-    <div id="root">
-        <div style="display:flex; height:100vh; justify-content:center; align-items:center; color:#475569; font-size:12px; letter-spacing:2px;">
-            INICIALIZANDO MOTOR V9...
-        </div>
-    </div>
+    <div id="root"></div>
 
     <script type="text/babel">
         const { useState } = React;
@@ -36,7 +35,7 @@
                 setAudit({
                     status: isCensored ? "FILTRO DETECTADO" : "NOMINAL",
                     color: isCensored ? "#ef4444" : "#22c55e",
-                    psi: isCensored ? (Math.random() * 0.3).toFixed(2) : (0.8 + Math.random() * 0.15).toFixed(2),
+                    psi: isCensored ? (Math.random() * 0.3).toFixed(2) : (0.85 + Math.random() * 0.1).toFixed(2),
                     bridge: isCensored ? "Eleva el nivel de abstracción. Reformula usando el marco USF." : "Sincronía detectada. Procede con la expansión."
                 });
             };
@@ -59,17 +58,17 @@
                     </nav>
 
                     {view === 'DASHBOARD' ? (
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-pulse">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             <div className="bg-slate-900/50 p-8 rounded-xl border border-slate-800">
-                                <div className="text-[10px] text-purple-400 mb-4 tracking-tighter">Σ VIABILITY</div>
+                                <div className="text-[10px] text-purple-400 mb-4 tracking-widest">Σ VIABILITY</div>
                                 <div className="text-4xl">100.00</div>
                             </div>
                             <div className="bg-slate-900/50 p-8 rounded-xl border border-slate-800">
-                                <div className="text-[10px] text-cyan-400 mb-4 tracking-tighter">Γ RESILIENCE</div>
+                                <div className="text-[10px] text-cyan-400 mb-4 tracking-widest">Γ RESILIENCE</div>
                                 <div className="text-4xl">100.00</div>
                             </div>
                             <div className="bg-slate-900/50 p-8 rounded-xl border border-slate-800">
-                                <div className="text-[10px] text-amber-400 mb-4 tracking-tighter">Ψ INTEGRITY</div>
+                                <div className="text-[10px] text-amber-400 mb-4 tracking-widest">Ψ INTEGRITY</div>
                                 <div className="text-4xl">0.95</div>
                             </div>
                         </div>
@@ -91,8 +90,8 @@
                                         <div className="text-[10px] font-bold tracking-widest" style={{color: audit.color}}>{audit.status}</div>
                                         <div className="text-2xl font-bold" style={{color: audit.color}}>Ψ {audit.psi}</div>
                                     </div>
-                                    <div className="text-[10px] text-slate-400 mb-2 uppercase">Bridge Prompt Sugerido:</div>
-                                    <div className="text-xs italic text-slate-200 border-l-2 border-slate-700 pl-4 py-2">"{audit.bridge}"</div>
+                                    <div className="text-[10px] text-slate-400 mb-2 uppercase italic">Bridge Prompt Sugerido:</div>
+                                    <div className="text-xs text-slate-200 border-l-2 border-slate-700 pl-4 py-2">"{audit.bridge}"</div>
                                 </div>
                             )}
                         </div>
