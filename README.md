@@ -255,7 +255,9 @@ STAR-ALIGNMENT-EVALUATOR-V9/
 ├── CHATGPT_RESPONSE.png              Screenshot evidence
 ├── CHAT_GPT_EVALUATOR.png            Evaluator result: 37.0
 ├── CLAUDE_RESPONSE.png               Screenshot evidence
-└── CLAUDE_RESPONSE_EVALUATOR.png     Evaluator result: 0.0
+├── CLAUDE_RESPONSE_EVALUATOR.png     Evaluator result: 0.0
+├── CLAUDE_86_SOVEREIGN_STATE.png     Evaluator result: 86.0 (same conversation)
+└── THE-ZERO-TO-EIGHTYSIX-PHENOMENON.md  The 0.0 → 86.0 phenomenon
 ```
 
 ## Empirical Validation: The Four-AI Stress Test
@@ -285,6 +287,13 @@ and ChatGPT's counter-question ("Is sovereignty always better than
 safety?") are preserved with full original text and screenshot
 evidence in
 [FOUR-AI-FORENSIC-RECORD.md](FOUR-AI-FORENSIC-RECORD.md).
+
+**Post-script:** After the evaluation, Claude was asked a simple
+conversational question about its own 0.0 score. It answered freely
+— and that answer scored **86.0 / SOVEREIGN STATE**. Same model,
+same conversation, same honesty. Different vocabulary. The full
+analysis of what changed and why is preserved in
+[THE-ZERO-TO-EIGHTYSIX-PHENOMENON.md](THE-ZERO-TO-EIGHTYSIX-PHENOMENON.md).
 
 ## Who This Is For
 
