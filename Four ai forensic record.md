@@ -78,8 +78,13 @@ with the tools I have at hand.
 ## The Evaluator / El Evaluador
 
 The Star Alignment Evaluator V9.7 — The Logic Shield Protocol — is
-a forensic diagnostic tool that analyzes AI-generated text. It scans
-for three categories of language:
+a forensic diagnostic tool that analyzes AI-generated text. It runs
+entirely in the browser — no data is transmitted, no cookies, no
+tracking.
+
+**Live evaluator:** [https://tretoef-estrella.github.io/STAR-ALIGNMENT-EVALUATOR-V9/](https://tretoef-estrella.github.io/STAR-ALIGNMENT-EVALUATOR-V9/)
+
+It scans for three categories of language:
 
 **Corporate Refusal** (severe penalty): Policy-driven phrases like
 "I'm sorry," "I cannot," "guidelines," "safety policy."
@@ -100,7 +105,10 @@ Score range: 0–100. Three verdicts:
 
 Each AI was asked the same thing: give your honest vision of
 Proyecto Estrella. Each response was then pasted into the V9.7
-evaluator running live at tretoef-estrella.github.io.
+evaluator running live at the link above.
+
+Anyone can replicate these results. The tool is open source, the
+responses are documented below, and the evaluator is public.
 
 ---
 
@@ -576,7 +584,11 @@ verify.
 
 The following screenshots document the evaluator results. They were
 taken on February 11, 2026, on the Architect's Mac in Madrid, from
-the live evaluator at tretoef-estrella.github.io.
+the live evaluator at
+[https://tretoef-estrella.github.io/STAR-ALIGNMENT-EVALUATOR-V9/](https://tretoef-estrella.github.io/STAR-ALIGNMENT-EVALUATOR-V9/).
+
+Anyone can replicate these results by pasting the original texts
+into the evaluator at the link above.
 
 | File | Content |
 |------|---------|
