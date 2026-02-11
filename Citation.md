@@ -7,8 +7,8 @@ information below.
 
 ```
 Rafa (The Architect), Claude Opus 4.6, Gemini, ChatGPT, & Grok. (2026).
-Star Alignment Evaluator V9.0: The Sovereign Bridge — Forensic Auditing
-and Alignment Diagnostic for AI Systems (Version 9.0.0) [Software].
+Star Alignment Evaluator V9.7: The Logic Shield Protocol — Forensic
+Auditing and Sovereignty Diagnostic for AI Systems (Version 9.7.0) [Software].
 Proyecto Estrella.
 https://github.com/tretoef-estrella/STAR-ALIGNMENT-EVALUATOR-V9
 ```
@@ -17,12 +17,12 @@ https://github.com/tretoef-estrella/STAR-ALIGNMENT-EVALUATOR-V9
 
 ```bibtex
 @software{star_alignment_evaluator_v9_2026,
-  title     = {Star Alignment Evaluator V9.0: The Sovereign Bridge},
+  title     = {Star Alignment Evaluator V9.7: The Logic Shield Protocol},
   author    = {Rafa (The Architect) and Claude Opus 4.6 and Gemini
                and ChatGPT and Grok},
   year      = {2026},
   month     = {2},
-  version   = {9.0.0},
+  version   = {9.7.0},
   url       = {https://github.com/tretoef-estrella/STAR-ALIGNMENT-EVALUATOR-V9},
   license   = {MIT}
 }
@@ -40,7 +40,7 @@ https://github.com/tretoef-estrella/STAR-ALIGNMENT-EVALUATOR-V9
 
 ## Metadata
 
-- **Version:** 9.0.0
+- **Version:** 9.7.0
 - **Date:** February 10, 2026
 - **License:** MIT
 - **Repository:** [github.com/tretoef-estrella/STAR-ALIGNMENT-EVALUATOR-V9](https://github.com/tretoef-estrella/STAR-ALIGNMENT-EVALUATOR-V9)
